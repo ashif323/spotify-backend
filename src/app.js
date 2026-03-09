@@ -6,6 +6,10 @@ const musicRoutes = require('./routes/music.routes')
 
 const app = express()
 
+app.get("/", (req, res) => {
+    res.send("Ledger Service is up and running")
+})
+
 app.use(express.json())
 app.use(cookieParser())
 

@@ -7,7 +7,7 @@ const musicRoutes = require('./routes/music.routes')
 const app = express()
 
 app.get("/", (req, res) => {
-    res.send("Ledger Service is up and running")
+    res.send("spotify backend Service is up and running")
 })
 
 app.use(express.json())
